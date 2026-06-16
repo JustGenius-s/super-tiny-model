@@ -1,0 +1,7 @@
+torch>=2.3.0
+sentencepiece>=0.2.0
+tokenizers>=0.21.0
+openai>=1.40.0
+tiktoken>=0.7.0
+tqdm>=4.66.0
+numpy>=1.26.0

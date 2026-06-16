@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# 训练检查点（太大）
+checkpoints/
+
+# 训练数据（可通过脚本重新生成）
+data/corpus.txt
+data/qa_pairs.json
+data/refuse_pairs.json
+data/distill_data.json
+data/tokenizer.json
+data/tokenizer_summary.json
+
+# 环境
+.env
+*.egg-info/
