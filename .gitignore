@@ -6,13 +6,8 @@ __pycache__/
 # 训练检查点（太大）
 checkpoints/
 
-# 训练数据（可通过脚本重新生成）
-data/corpus.txt
-data/qa_pairs.json
-data/refuse_pairs.json
+# 蒸馏中间数据（较大）
 data/distill_data.json
-data/tokenizer.json
-data/tokenizer_summary.json
 
 # 环境
 .env
